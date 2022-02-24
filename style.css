@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    background: #cd0b1e;
+}
+
+.monText {
+    font-family: "Montserrat";
+    font-size: 30px;
+}
+
+#background-div {
+    height: 90vh;
+    width: 70vw;
+    background-image: url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 10vh;
+    left: 30vw
+}
+
+#shoe-name {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    text-align: left;
+}
+
+.shoeText {
+    font-family: 'Sigmar One', cursive;
+    width: 300px;
+    line-height: 100px;
+    color: white;
+    font-size: 90px;
+}
+
+#purchaseButton {
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    top: 600px
+}
+
+#purchaseButton:hover {
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    width: 100vw;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+}
+
+#logo {
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+}
+
+.navText {
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+
+.navText:hover {
+    cursor: pointer;
+}
+
+#navLinks {
+    height: 100%;
+    width: 40vw;
+    position: absolute;
+    left: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
